@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Gin's Page </title>
+</head>
+<style>
+body {
+    background-color: black;
+}
+h1 {
+    color: crimson;
+    font-family: times new roman;
+ text-align: center;
+}
+p {
+    color: white;
+ font-family: helvetica;
+    font-size: 28px;
+}
+h2 {
+ color: crimson;
+ font-family: times new roman;
+ text-align: center;
+}
+</style>
+<body>
+
+<h1 title="I'm awesome">Luis Ginno</h1>
+<img src="Flush.jpg" alt="Royal Flush" width="350" height="284">
+<p>Call me Gin. Luis sounds too formal and Ginno well, it's a syllable too long. <br>
+I'm a musician and have been part of a band since 2007. It's probably one of the <br>
+things I am most proud of. I love reading <a href="http://www.cracked.com">articles</a> and stories too, specifically <a href="http://www.creepypasta.wikia.com">horror</a>.<br>
+</p>
+
+<h2> FACTS ABOUT ME <h2/>
+
+<p id="demo1"> Am I awesome? <p/>
+<button type="button" onclick="document.getElementById('demo1').innerHTML = 'YES'">SHOW ANSWER</button>
+<button type="button" onclick="document.getElementById('demo1').innerHTML ='Am I awesome?'">HIDE ANSWER</button>
+
+<p id="demo2"> Favorite color? <p/>
+<button type="button" onclick="document.getElementById('demo2').innerHTML = 'RED'">SHOW ANSWER</button>
+<button type="button" onclick="document.getElementById('demo2').innerHTML ='Favorite color?'">HIDE ANSWER</button>
+
+<p id="demo3"> Favorite show? <p/>
+<button type="button" onclick="document.getElementById('demo3').innerHTML = 'GAME OF THRONES'">SHOW ANSWER</button>
+<button type="button" onclick="document.getElementById('demo3').innerHTML ='Favorite show?'">HIDE ANSWER</button>
+
+<p id="demo4"> Favorite food? <p/>
+<button type="button" onclick="document.getElementById('demo4').innerHTML = 'PASTA'">SHOW ANSWER</button>
+<button type="button" onclick="document.getElementById('demo4').innerHTML ='Favorite food?'">HIDE ANSWER</button>
+
+<p id="demo5"> Favorite movie? <p/>
+<button type="button" onclick="document.getElementById('demo5').innerHTML = 'PULP FICTION'">SHOW ANSWER</button>
+<button type="button" onclick="document.getElementById('demo5').innerHTML ='Favorite movie?'">HIDE ANSWER</button>
+
+<h2> NOW LET ME KNOW MORE ABOUT YOU! <h2/>
+
+<form action="welcome.php" method="post">
+Name: <input type="text" name="name"><br>
+E-mail: <input type="text" name="email"><br>
+<input type="submit">
+</form>
+
+</body>
+</html>
